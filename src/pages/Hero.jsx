@@ -18,7 +18,7 @@ const Hero = () => {
 					<button
 						className='bg-gradient-to-r from-pink-500 to-yellow-500 text-white px-8 py-3 text-lg md:text-xl rounded-md shadow-lg hover:shadow-xl focus:outline-none'
 						onClick={() => {
-							navigate('/register');
+							navigate('/login/doctor');
 						}}>
 						Register
 					</button>

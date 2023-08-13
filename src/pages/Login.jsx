@@ -24,14 +24,15 @@ const Login = () => {
 					onSubmit={async e => {
 						e.preventDefault();
 						console.log({ email, pass });
-						const res = await fetch('url', {
-							method: 'POST',
-							body: JSON.stringify({ name, pass }),
-							headers: {
-								'Content-Type': 'application/json'
-							}
-						});
-						console.log(res.json());
+						// const res = await fetch('url', {
+						// 	method: 'POST',
+						// 	body: JSON.stringify({ name, pass }),
+						// 	headers: {
+						// 		'Content-Type': 'application/json'
+						// 	}
+						// });
+						// console.log(res.json());
+						window.open('https://077d-43-251-179-136.ngrok-free.app/5e0e536c-ccc1-4572-adac-1d13222a93d6', "_blank");
 						console.log('Submitted');
 					}}>
 					<InputField
