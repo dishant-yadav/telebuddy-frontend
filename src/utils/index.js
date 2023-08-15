@@ -2,10 +2,10 @@ const submitImage = async (image) => {
 	const data = new FormData();
 	data.append('file', image);
 	data.append('upload_preset', 'imageupload');
-	data.append('cloud_name', 'dj4mlinfo');
+	data.append('cloud_name', 'xyz');
 
 	try {
-		const resData = await fetch('https://api.cloudinary.com/v1_1/dj4mlinfo/image/upload/', {
+		const resData = await fetch('https://api.cloudinary.com/v1_1/xyz/image/upload/', {
 			method: 'POST',
 			body: data
 		});
